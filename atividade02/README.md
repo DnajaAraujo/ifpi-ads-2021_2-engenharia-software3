@@ -1,2 +1,2 @@
-# Atividade02:
-- Link do vídeo: Coesão, Encapsulamento e Acoplamento
+# Atividade02: Coesão, Encapsulamento e Acoplamento
+- Link do vídeo: 
