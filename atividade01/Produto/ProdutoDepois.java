@@ -13,13 +13,11 @@ public class ProdutoDepois {
     }
 
     boolean baixar(int quantidade){
-        if (this.quantidade - quantidade < quantidadeMinima) {
-            return false;
-        } 
-        else {
+        if (this.quantidade - quantidade >= quantidadeMinima) {
             this.quantidade -= quantidade;
             return true;
-        }
+        } 
+        return false;
     }
 
     void repor(int quantidade){
