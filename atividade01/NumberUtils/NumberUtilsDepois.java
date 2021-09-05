@@ -8,12 +8,7 @@ public class NumberUtilsDepois {
     }
 
     public boolean isOdd() {
-        if (num % 2 != 0) {
-            return true;
-        } 
-        else {
-            return false;
-        }
+        return num % 2 != 0;
     }
 
     public boolean isPrime() {
