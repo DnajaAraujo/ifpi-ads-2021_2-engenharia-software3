@@ -5,7 +5,7 @@ public class ProdutoDepois {
     int quantidade;
     int quantidadeMinima = 10;
 
-    ProdutoAntes(int codigo, String descricao, double valor, int quantidade){
+    ProdutoDepois(int codigo, String descricao, double valor, int quantidade){
         this.codigo = codigo;
         this.descricao = descricao;
         this.valor = valor;
